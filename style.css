@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    margin-left: 800px;
+    color: gray;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color:gray;
+    margin-left: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+.logo{
+    height: auto;
+    width: 150px;
+}
+.icones-1{
+    width: 60px;
+    margin:0;
+    height: auto;
+}
+.icones-2{
+    width: 90px;
+    margin: 0;
+    height: auto;
+}
+.icones-3{
+    width: 90px;
+    margin: 0;
+    height: auto;
+}
+.icones-4{
+    width: 60px;
+    margin: 0;
+    height: auto
+}
+
+.links{
+    padding-right: 60px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-1{
+    background: url("bg.jpg") gray;
+    margin:0;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-hamburguer{
+    align-items: center;
+    border-radius: 10%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    width: 30px;
+}
+
+.traco{
+    background-color: gray;
+    border-radius: 30px;
+    display: block;
+    height: 3px;
+    margin: 4px 0;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.traco-1 .traco-3{
+    transform-origin: right center;
+}
+
+nav a:hover {
+   /* color: orange;
+    text-decoration: underline;*/
+    background-color: orange;
+}
+
+.nav-menu-hamburguer{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+   transform: translateX(-100%);
+   transition: 1s;
+   background: url("bg.jpg") gray;
+}
+.nav-menu-hamburguer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Sniglet', cursive;
+}
+
+.menu-hamburguer.ativo .traco-1{
+    transform: rotateZ(-45deg);
+    transform-origin: center right;
+}
+.menu-hamburguer.ativo .traco-2 {
+    opacity: 0;
+}
+.menu-hamburguer.ativo .traco-3{
+    transform: rotateZ(45deg);
+    transform-origin: center right;
+}
+.visible{
+    transform: translateX(0);
+}
+.uber{
+    width: 100px;
+    margin: 0;
+    height: auto;
+}
+.noventa{
+    width: 90px;
+    margin: 0;
+    height: auto;
+}
+.cabify{
+    width: 100px;
+    padding: 30px;
+    margin: 0;
+    height: auto;
+}
+.empresas-flex{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.botao{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    background: url("bg.jpg") gray;
+    padding: 20px 0;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.beneficios{
+    background: white;
+    padding: 20px;
+}
+
+.pass {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+} 
+
+.barba {
+    width: 50%;
+}
+
+#banner{
+    width: 100%;
+    height: 500px;
+}
+
+.principal {
+    background:#CCCCCC;
+    padding: 30px;
+}  
+
+p {
+    text-align: center;
+}
+
+em strong {
+    color:orangered;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+.paragrafo{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+
+}
